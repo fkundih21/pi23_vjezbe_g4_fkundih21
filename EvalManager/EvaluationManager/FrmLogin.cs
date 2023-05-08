@@ -25,7 +25,19 @@ namespace EvaluationManager
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+           string username = txtUsername.Text;
+           string password = txtPassword.Text;
+           if (username =="" ||  password == "")
+            {
+                MessageBox.Show("Popunite sva polja", "Pogreška", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            } else if (username == "nastavnik" &&  password == "sifra")
+            {
+                MessageBox.Show("Dobrodošli "+ username);
+            }
+            else
+            {
+                MessageBox.Show("Podaci nisu ispravni!", "Pogreška", MessageBoxButtons.OK, MessageBoxIcon.Warning); ;
+            }
         }
 
         private void lblUsername_Click(object sender, EventArgs e)
