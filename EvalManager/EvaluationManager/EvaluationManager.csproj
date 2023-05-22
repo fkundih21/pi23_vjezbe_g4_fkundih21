@@ -56,6 +56,12 @@
     <Compile Include="FrmEvaluation.Designer.cs">
       <DependentUpon>FrmEvaluation.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFinalReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalReport.Designer.cs">
+      <DependentUpon>frmFinalReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     <Compile Include="Repositories\TeacherRepository.cs" />
     <EmbeddedResource Include="FrmEvaluation.resx">
       <DependentUpon>FrmEvaluation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalReport.resx">
+      <DependentUpon>frmFinalReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

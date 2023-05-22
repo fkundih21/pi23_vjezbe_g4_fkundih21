@@ -30,6 +30,16 @@ namespace EvaluationManager
             dgvStudents.DataSource == students;
         }
 
+        private void dgvStudents_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGenerateReport_Click(object sender, EventArgs e)
+        {
+            var form = new frmFinalReport();
+            form.ShowDialog();
+        }
     }
 
 }

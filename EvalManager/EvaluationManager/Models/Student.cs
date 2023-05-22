@@ -54,7 +54,7 @@ namespace EvaluationManager.Models
             int grade = 0;
             if (HasGrade() == true)
             {
-                int totalPoints=CalculateTotalPoints
+                int totalPoints = CalculateTotalPoints;
                     if(totalPoints >= 91)
                 {
                     grade = 5;
